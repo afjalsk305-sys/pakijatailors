@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pakija Tailor - Ladies Garments Specialist</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Pakija Tailor</h1>
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span><span></span><span></span>
+    </div>
+    <nav>
+      <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="overlay">
+      <h2>Welcome to Pakija Tailor</h2>
+      <p>We design elegant and modern ladies garments – Kurti, Salwar, Baby Tops & More!</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>
+      At <strong>Pakija Tailor</strong>, we specialize in custom stitching and designing of ladies garments including
+      Kurtis, Salwar Suits, Baby Girl Tops, Two-Piece Sets, and more.
+      Our expert tailors ensure perfect fitting, modern designs, and top-quality finishing for every piece we create.
+    </p>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Kurti Stitching</h3>
+        <p>Designer and casual kurtis with elegant finishing.</p>
+      </div>
+      <div class="service-item">
+        <h3>Salwar Suits</h3>
+        <p>Traditional and trendy suits for every occasion.</p>
+      </div>
+      <div class="service-item">
+        <h3>Baby Girl Dresses</h3>
+        <p>Adorable designs for baby girls in all sizes.</p>
+      </div>
+      <div class="service-item">
+        <h3>Custom Designs</h3>
+        <p>Bring your ideas — we’ll make them real!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery-images">
+      <img src="https://images.unsplash.com/photo-1618354691373-d851c5b3482d?auto=format&fit=crop&w=800&q=60" alt="Kurti" />
+      <img src="https://images.unsplash.com/photo-1618354691283-84c33f0d30e4?auto=format&fit=crop&w=800&q=60" alt="Salwar" />
+      <img src="https://images.unsplash.com/photo-1606813909355-3188f94c0c02?auto=format&fit=crop&w=800&q=60" alt="Baby Dress" />
+      <img src="https://images.unsplash.com/photo-1593032465171-8b57d31f8e77?auto=format&fit=crop&w=800&q=60" alt="Tailor Work" />
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Pakija Tailor</strong></p>
+    <p>Chandipur, Purba Medinipur, West Bengal - 721601</p>
+    <p>📞 8653776866 / 7319585851</p>
+    <p>✉️ <a href="mailto:afjal721601@gmail.com">afjal721601@gmail.com</a></p>
+    <a href="tel:8653776866" class="btn">Call Now</a>
+
+    <iframe 
+      src="https://www.google.com/maps?q=Chandipur,+Purba+Medinipur,+West+Bengal,+721601&output=embed">
+    </iframe>
+  </section>
+
+  <footer>
+    <p>© 2025 Pakija Tailor | Designed with ❤️ in West Bengal</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+    toggle.addEventListener("click", () => {
+      menu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
